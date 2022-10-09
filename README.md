@@ -1,5 +1,8 @@
+# Install and run
+
     git clone https://github.com/qwertyqq2/hackVTB
     npm install
     npm run dev
-# hackatonVtb
-# hackatonVtb
+
+Backend typescript - https://github.com/bashkirian/hell
+
