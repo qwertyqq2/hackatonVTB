@@ -1,6 +1,7 @@
 # Install and run
 
-    git clone https://github.com/qwertyqq2/hackVTB
+    git clone https://github.com/qwertyqq2/hackatonVtb
+
     npm install
     npm run dev
 
