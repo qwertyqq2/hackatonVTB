@@ -1,0 +1,51 @@
+.title {
+  color: #333;
+  padding-bottom: 0px;
+  text-align: center;
+}
+.text {
+  color: #777;
+  padding-bottom: 0px;
+  text-align: left;
+  font-size: 30px;
+  
+
+
+}
+.btn {
+  display: block;
+  width: 500px;
+  padding: 8px 0;
+  margin: 20px auto;
+  background: #4979ff;
+  border-radius: 5px;
+  color: white;
+  text-align: center;
+}
+
+.button {
+  background: #4979ff;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.img{
+visibility: inherit;
+position: absolute;
+top: 0px;
+left: 500px;
+bottom: 100px;
+right: 50px;
+box-sizing: border-box;
+padding: 0px;
+border: none;
+margin: auto;
+display: block;
+width: 500px;
+height: 250px;
+}

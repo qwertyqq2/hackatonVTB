@@ -1,0 +1,32 @@
+
+.title {
+  color: #0A28A4;
+  padding-bottom: 0px;
+  text-align: center;
+}
+.text {
+  color: #777;
+  padding: 2px 0;
+}
+.btn {
+  display: block;
+  width: 500px;
+  padding: 8px 0;
+  margin: 20px auto;
+  background: #4979ff;
+  border-radius: 5px;
+  color: white;
+  text-align: center;
+}
+
+.button {
+  background: #4979ff;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}

@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap');
+
+body {
+  background: #F3F7FA;
+  color: #0A28A4;
+  font-family: "Nunito";
+}
+a {
+  color: #0A28A4;
+  text-decoration: none;
+}
+.content {
+  max-width: 960px;
+  margin: 0 auto;
+}
+nav {
+  margin: 10px auto 80px;
+  padding: 10px 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  border-bottom: 1px solid #ddd;
+}
+nav a {
+  margin-left: 12px;
+}
+nav .logo {
+  margin-right: auto;
+}
+footer {
+  display: block;
+  text-align: center;
+  padding: 30px 0;
+  margin-top: 60px;
+  color: #777;
+  border-top: 1px solid #eaeaea;
+}
+
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.menu {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0px;
+  left: 0;
+  transform: translateX(-130%);
+  transition: all 0.2s;
+}
+
+.menu.active {
+  transform: translateX(130%);
+}
+
+.btn {
+  width: 30px;
+  height: 30px;
+  margin-left: 0;
+  margin-top: 50px;
+  position: relative;
+  cursor: pointer;
+}
+
+.btn span {
+  position: absolute;
+  top: 9px;
+  width: 30px;
+  background-color: black;
+  height: 3px;
+}
+
+.btn::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  width: 30px;
+  background-color: black;
+  height: 3px;
+}
+
+.btm::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  width: 30px;
+  background-color: black;
+  height: 3px;
+}
+
+.blur {
+  width: 100vw;
+  height: 100vh;
+  left: 30%;
+  position: absolute;
+}
+
+.menu__content {
+  width: 30%;
+  height: 100%;
+  background-color: #F3F7FA;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: all 0.4s;
+}
+
+.menu__content a {
+  color: #1942C9;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  margin: 10px 0;
+}
+
+.menu__header {
+  padding: 10px;
+  font-size: 1.5rem;
+  color: black;
+  /*border-bottom: 1px solid white;*/
+  width: 100%;
+  text-align: center;
+}
+
+ul li {
+  color:#1942C9;
+  display: flex;
+  align-items: center;
+  font-size: 1.3rem;
+  margin: 10px 0;
+}
+
+ul li {
+  align-items: center;
+}
+
+ul {
+  text-align: left;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.material-icons {
+  color: white;
+  margin-left: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .menu__content {
+    width: 100%;
+  }
+}
+
+.user img {
+  border-radius: 50%;
+}

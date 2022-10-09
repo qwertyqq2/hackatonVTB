@@ -1,0 +1,28 @@
+[
+    {
+        "id": 0,
+        "name": "admin",
+        "role": "admin",
+        "balance": 1,
+        "dateUpdated": "2022-10-07T19:58:11.583Z"
+    },
+    {
+        "id": 1,
+        "name": "ivan",
+        "role": "employeer",
+        "balance": 1,
+        "dateUpdated": "2022-10-07T20:03:51.055Z"
+    },
+    {
+        "id": 2,
+        "name": "grisha",
+        "role": "employeer",
+        "balance": 1
+    },
+    {
+        "id": 3,
+        "name": "bob",
+        "role": "boss",
+        "balance": 1
+    }
+]

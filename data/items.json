@@ -1,0 +1,17 @@
+[
+    {
+        "name": "item1",
+        "ownerId": 0,
+        "price": 10
+    },
+    {
+        "name": "item2",
+        "ownerId": 0,
+        "price": 10
+    },
+    {
+        "name": "item3",
+        "ownerId": 0,
+        "price": 10
+    }
+]

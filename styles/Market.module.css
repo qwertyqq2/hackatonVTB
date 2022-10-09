@@ -1,0 +1,26 @@
+.single {
+    padding: 4px 10px;
+    background: #fff;
+    display: inline-block;
+    margin: 20px 10px;
+    border-left: 4px solid #fff;
+    border-radius: 5%;
+    width: 10vw;
+    height: 29vh;
+}
+
+.button {
+    background: #4979ff;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.button:hover {
+    opacity: 0.5;
+}

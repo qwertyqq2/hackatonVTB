@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "senderId": 0,
+        "receiverId": 1,
+        "value": 1,
+        "timestamp": "today"
+    },
+    {
+        "id": 1,
+        "senderId": 0,
+        "receiverId": 1,
+        "value": 1,
+        "timestamp": "today"
+    },
+    {
+        "id": 1,
+        "senderId": 1,
+        "receiverId": 3,
+        "value": 1,
+        "timestamp": "today"
+    }
+]
