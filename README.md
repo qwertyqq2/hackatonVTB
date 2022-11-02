@@ -1,4 +1,4 @@
-# Install and run
+# NFT-Marketplace
 
     git clone https://github.com/qwertyqq2/hackatonVtb
 
